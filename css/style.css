@@ -1,0 +1,114 @@
+@import url(fonts.css);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+}
+body {
+	background-color: #b07cf7;
+}
+.header {
+	margin: 5% auto 3%;
+	width: 32%;
+	color: #fff;
+	text-align: center;
+}
+.big-title {
+	font-family: 'Raleway Bold';
+	font-size: 90px;
+	padding-bottom: 5%;
+}
+
+.sub-text {
+	font-family: 'Raleway Light', sans-serif;
+	font-size: 17px;
+}
+main {
+	width: 80%;
+	display: flex;
+	color: #fff;
+	margin: 0 auto;
+	justify-content: center;
+}
+.section-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin: 0 10px;
+}
+.first {
+	width: 370px;
+	height: 310px;
+	background: url(/img/smoothies.jpg) no-repeat;
+}
+.second {
+	width: 370px;
+	height: 310px;
+	background: url(/img/growing-food.jpg) no-repeat;
+}
+.third {
+	width: 370px;
+	height: 310px;
+	background: url(/img/pesticides.jpg) no-repeat;
+}
+
+.little-title {
+	font-size: 20px;
+	font-family: 'Raleway Bold';
+	padding: 0 0 15px 20px;
+}
+.date-author {
+	font-size: 12px;
+	font-family: 'Raleway Light', sans-serif;
+	padding: 10px 0 20px 20px;
+	color: #d1d2d2;
+}
+
+.section-block:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	cursor: pointer;
+	filter: brightness(1.2);
+	-webkit-filter: brightness(1.2);
+}
+
+.footer {
+	display: block;
+	height: 20%;
+}
+.btn {
+	margin: 50px auto;
+	background-color: #f72b3b;
+	border: 2px solid #f72b3b;
+	display: block;
+	color: #fff;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	width: 220px;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+	font-family: 'Raleway Light', sans-serif;
+}
+
+.btn:hover {
+	background-color: rgb(255, 255, 255);
+	color: #f72b3b;
+	border: 2px solid #f72b3b;
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	cursor: pointer;
+}
